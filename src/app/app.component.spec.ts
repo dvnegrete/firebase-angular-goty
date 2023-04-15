@@ -23,6 +23,7 @@ describe('AppComponent', () => {
   it(`should have as title 'goty'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
+    console.log(app)
     expect(app.title).toEqual('goty');
   });
 
@@ -32,4 +33,5 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('.content span')?.textContent).toContain('goty app is running!');
   });
+
 });

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angulargraphic": {
+      "hosting": {
+        "goty": [
+          "angulargraphic"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angulargraphic"
+  }
+}

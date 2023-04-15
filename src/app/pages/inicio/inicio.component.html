@@ -1,0 +1,16 @@
+<h2>Game of the Year</h2>
+<hr>
+
+<div class="row">
+    <div class="col">
+
+        <app-grafico-horizontal [results]="games"></app-grafico-horizontal>
+
+        <ul>
+            <li class="text" *ngFor="let item of items$ | async">
+              {{item.name}}
+            </li>
+        </ul>
+
+    </div>
+</div>
